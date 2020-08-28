@@ -37,4 +37,5 @@ end
 
 def update_element_from_index(array, index_number, element)
   array.index("totally")
-end
+  p array.index
+  end
