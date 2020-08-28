@@ -8,9 +8,7 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  people_in_family = ["Wolfie", "Erin", "Nicole", "Dino"]
-  array.push("Iva")
-  p people_in_family
+  array.push(element)
 end
 end
 
