@@ -9,7 +9,7 @@ end
 
 def add_element_to_end_of_array(array, element)
   people_in_family = ["Wolfie", "Erin", "Nicole", "Dino"]
-  people_in_family.push("Iva")
+  array.push("Iva")
   p people_in_family
 end
 end
